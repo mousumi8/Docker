@@ -1,0 +1,16 @@
+Docker-setup
+
+In oder to use docker we need to install docker in our machine.
+
+Below are steps to install it.
+1. Sign up for Docker Hub: https://hub.docker.com/signup
+2. Navigate to https://hub.docker.com/?overlay=onboarding
+3. Download *Docker Desktop for Mac* or *Docker Desktop for Windows*.
+4. Install Docker Desktop.
+
+Another way to use docker is to use Play-With-Docker option, for this you need to register and login to  to the following URL -  navigate to http://play-with-docker.com in your browser which will rediect to this url - https://labs.play-with-docker.com/
+
+This is how docker can be installed.
+
+Note : Hyper-V must be enabled to install docker in your machine
+
