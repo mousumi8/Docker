@@ -1,0 +1,15 @@
+# Linux image
+FROM alpine
+WORKDIR /root/my-hello-world
+COPY MyHelloWorld.java /root/my-hello-world
+
+#install JDK
+RUN apk add openjdk8
+ENV JAVA_HOME /usr/lib/jvm/java-1.8-openjdk
+ENV PATH $PATH:$JAVA_HOME/bin
+
+# Compile our MyhelloWorld
+RUN javac MyHelloWorld.java
+
+#ENTRYPOINT or CMD anything you can use
+CMD java MyHelloWorld
